@@ -1,0 +1,385 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+margin: 100%;
+overflow: hidden;
+    background-image: linear-gradient(to right,rgb(0, 217, 255),rgb(234, 21, 253));
+}
+/* <<<<<<<<<<<main amination>>>>>>>>>> */
+.tpart{
+    display: none;
+}
+.resumeOrg{
+    display: none;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.part1 a{
+    text-decoration: none;
+}
+.part1{
+    width: 200px;
+    height: 470px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+.part2{
+    width: 600px;
+    height: 470px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.part1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: grid;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.part1 h1{
+    display: grid;
+    justify-content: center;
+    font-size: 23px;
+}
+.jobTitle{
+    display: grid;
+    justify-content: center;
+}
+.part1 h3{
+    padding: 6px 10px;
+    background-color: rgb(185, 190, 190);
+    border-radius: 30px;
+    display: inline;
+    font-size: 18px;
+}
+.icons{
+    font-size: 23px;
+    display: flex;
+justify-content: space-evenly;
+}
+.fa-phone-square, .fa-whatsapp{
+    color: green;
+}
+.fa-facebook-square{
+    color: rgb(20, 20, 204);
+}
+.info{
+    font-size: 17px;
+    display: grid;
+justify-content: center;
+background-color: rgb(185, 190, 190);
+margin-bottom: 50px;
+}
+.fa-map-marker, .fa-certificate, .fa-calendar-check-o{
+    font-size: 23px !important;
+}
+.dob{
+    margin-bottom: 10px;
+}
+.add{
+    margin-bottom: 10px;
+}
+#contactBtn{
+    background-color: rgb(0, 217, 255);
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 21, 253) ;
+    outline: none;
+display: flex;
+border-radius: 20px;
+margin: auto;
+cursor: pointer;
+}
+/* <<<<<<<<<<<<<part2>>>>>>>>>>> */
+
+.nav{
+    display: flex;
+}
+
+.togNav{
+width: 200px;
+background-color: rgb(0, 217, 255);
+right: 38px;
+position: absolute;
+margin-top: 12px;
+border-radius: 20px 0px 0px 20px;
+display: none;
+}
+.togNav ul{
+    list-style: none;
+}
+.togNav ul li{
+    float: left;
+    padding: 7px 20px;
+    cursor: pointer;
+    color: rgb(163, 172, 172);
+    background: none;
+}
+.togNav ul li:hover{
+    color: rgb(0, 0, 0);
+}
+#navIcon{
+    right: 10px;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 17px;
+padding: 10px 10px;
+border-radius: 50%;
+z-index: 11;
+display: grid;
+background-color: rgb(0, 217, 255);
+}
+/* <<<<<<<<<<about me>>>>>>>>>>> */
+.nav h1{
+    font-size: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-bottom: rgb(12, 250, 250);
+    padding: 7px 20px;
+}
+.aboutMe p{
+    font-size: 13px;
+    margin-left: 10px;
+    display: block;
+}
+.doing h4{
+    margin-left: 10px;
+    font-size: 20px;
+}
+/* <!-- <<<<<<<<what i am doing>?>>>>>>>>>>>>>> --> */
+.doing{
+    background-color: rgb(185, 190, 190);
+    bottom: 0px;
+position: absolute;
+border-radius: 0px 0px 10px 10px;
+}
+.doing h1{
+    font-size: 21px;
+}
+.fristRow{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.codingName{
+    width: 45%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.fa-mobile, .fa-plus-square-o, .fa-code, .fa-diamond{
+    color: rgb(0, 217, 255);
+}
+#lastRow{
+margin-bottom: 50px;
+}
+.fa-code{
+    font-size: 22px;
+}
+.codingName h3{
+    font-size: 19px;
+    display: inline;
+}
+.codingName p{
+    font-size: 13px;
+}
+
+/* <<<<<<<<<<<<Resume>>>>>>>>>>> */
+/* <<<<<<<education>>>>>>>> */
+.resumeBio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.education{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 47%;
+box-sizing: border-box;
+}
+.fa-graduation-cap, .fa-briefcase{
+    font-size: 33px !important;
+}
+.education h3{
+    font-size: 20px;
+    display: inline;
+}
+.colage h2{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.colage h4{
+    font-size: 27px;
+    margin-top: 20px;
+    color: rgb(185, 190, 190);
+}
+.colage p{
+    font-size: 15px;
+}
+.education p{
+    font-size: 13px;
+}
+/* <<<<<<<skill bar>>>>>>>> */
+.skikll{
+    display: flex;
+}
+.sof{
+    width: 45%;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.sof h2{
+    font-size: 20px;
+}
+.skillBar{
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 15px;
+}
+.bar{
+    text-align: right;
+    color: rgb(234, 21, 253);
+}
+#skillses{
+    margin-top: 20px;
+}
+#skillses p{
+    font-size: 12px;
+}
+
+.photoshop {
+    width: 90%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.illustrator{
+    width: 50%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.git{
+    width: 15%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.html{
+    width: 80%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.css{
+    width: 75%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.jquery{
+    width: 65%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.js{
+    width: 25%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.bootstrap{
+    width: 60%; background-color: rgb(0, 217, 255);border-radius: 15px 0px 0px 15px;
+}
+.bar p{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+/* <<<<<<<<<<<<<potifolio>>>>>>>>>>> */
+.tpart{
+    margin-top: 60px;
+    height: 355px;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    background-color: rgb(185, 190, 190);
+}
+#project{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.protea img{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(234, 21, 253);
+    border-radius: 10px;
+    
+}
+.protea p{
+    text-align: center;
+}
+.protea{
+width: 100%;
+text-decoration: none;
+}
+/* <<<<<<<<<button>>>>>>>>>>> */
+.proBtns{
+    text-align: center;
+}
+.code, .photo{
+    padding: 7px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.active{
+    background-color: aqua;
+}
+.codebt, .photobt{
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.Dainamic, .sPage, .Btrap, .phoWeb, .phoMag, .phoAdd, .phoDon{
+    outline: none;
+    border: none;
+    height: 30px;
+margin-bottom: 20px;
+margin-left: 5px;
+margin-right: 5px;
+width: 70px;
+font-size: 11px;
+cursor: pointer;
+}
+.actSide{
+    background-color: rgb(234, 0, 255);
+    color: white;
+    filter: drop-shadow(3px 3px 20px rgb(255, 4, 239));
+}
+/* <<<<<<<<<<<main dainamic animatiuon>>>>>>>>>> */
+.photoAdds, .photoDongolar, .photoMagazine, .boostrap, .sContainer, .photoMain{
+    display: none;
+}
+.slidepcon{
+    display: flex;
+}
+.sideBtn{
+    display: flex;
+    flex-direction: column;
+}
+.photoWebsite ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.photoWebsite ul li{
+    padding: 10px 5px;
+}
+.fa{
+    cursor: pointer;
+}
